@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["--show_plot", "--epochs=1000", "--lr=1e-3", "--feedback_alignment", "--num_hidden=2", "--size_hidden=50", "--plot_matrix_angles", "--batch_size=32"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
+
+// This is for polynomial regression w/ FA "args": ["--polynomial_regression", "--show_plot", "--epochs=50000", "--lr=1e-2", "--feedback_alignment", "--num_hidden=2", "--size_hidden=50", "--plot_matrix_angles", "--batch_size=32"]
+// 
